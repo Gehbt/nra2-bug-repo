@@ -1,0 +1,18 @@
+{
+  "name": "nra2-bug-repo",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "run-s lint.check  lint.fix",
+    "lint.fix": "echo \"lint.fix\"",
+    "lint.check": "echo \"lint.check\""
+  },
+  "devDependencies": {
+    "npm-run-all2": "^6.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "packageManager": "pnpm@9.9.0"
+}
